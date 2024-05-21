@@ -81,7 +81,7 @@
 				<div class="text-wrapper align-left">
 					<h1 class="mbr-section-title mbr-fonts-style mb-4 display-2"><strong>DONATE</strong></h1>
 					<p class="mbr-text align-left mbr-fonts-style mb-4 display-7">
-					With a spirit of innovation, we navigate uncharted territories, exploring new ideas, technologies, and approaches. It is through our willingness to challenge conventions and think beyond boundaries that we discover innovative solutions that propel us forward.
+					Join us in honoring the lives of our loved ones by supporting our cause. Your donation helps us continue to celebrate their memory and make a difference in the lives of others.
 					</p>
 					<div class="mbr-section-btn align-left mt-3"><a class="btn btn-success-outline display-4" href="#">DONATE</a></div>
 				</div>
