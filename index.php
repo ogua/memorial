@@ -85,7 +85,7 @@
 				<div class="text-wrapper align-left">
 					<h1 class="mbr-section-title mbr-fonts-style mb-4 display-2"><strong>Bijdrage</strong></h1>
 					<p class="mbr-text align-left mbr-fonts-style mb-4 display-7">
-					Join us in honoring the lives of our loved ones by supporting our cause. Your donation helps us continue to celebrate their memory and make a difference in the lives of others.
+					Sluit u bij ons aan om de levens van onze dierbaren te eren door onze zaak te steunen. Jouw donatie helpt ons hun nagedachtenis te blijven vieren en een verschil te maken in de levens van anderen.
 					</p>
 					<div class="mbr-section-btn align-left mt-3"><a class="btn btn-success-outline display-4" href="#">DONATE</a></div>
 				</div>
