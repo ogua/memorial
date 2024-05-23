@@ -41,13 +41,13 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item">
-						<a class="nav-link link text-yellow display-4" href="index.php">Home</a>
+						<a class="nav-link link text-yellow display-4" href="index-en.php">HOME</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link link text-black display-4" href="post-memory.php" aria-expanded="false">Laat een herinnering achter</a>
+						<a class="nav-link link text-black display-4" href="post-memory-en.php" aria-expanded="false">Leave a note</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link link text-black display-4" href="index-en.php" aria-expanded="false">Vertaal naar Engels</a>
+						<a class="nav-link link text-black display-4" href="index.php" aria-expanded="false">Translate to Dutch</a>
 					</li>
 				</ul>
 				
@@ -65,10 +65,10 @@
     <div class="row">
       <div class="content-wrap col-12 col-md-12">
         <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-4 display-1">
-          <strong>In liefdevolle herinnering AAN Alice Groenefelt - Imanuel</strong></h1>
+          <strong>In Loving Memory OF Alice Groenefelt - Imanuel</strong></h1>
         
         
-        <div class="mbr-section-btn"><a class="btn btn-white-outline display-7" href="post-memory.php">Plaats een bericht</a></div>
+        <div class="mbr-section-btn"><a class="btn btn-white-outline display-7" href="post-memory-en.php">Post Story</a></div>
       </div>
     </div>
   </div>
@@ -83,7 +83,7 @@
 			</div>
 			<div class="col-12 col-md-12 col-lg">
 				<div class="text-wrapper align-left">
-					<h1 class="mbr-section-title mbr-fonts-style mb-4 display-2"><strong>Bijdrage</strong></h1>
+					<h1 class="mbr-section-title mbr-fonts-style mb-4 display-2"><strong>DONATE</strong></h1>
 					<p class="mbr-text align-left mbr-fonts-style mb-4 display-7">
 					Join us in honoring the lives of our loved ones by supporting our cause. Your donation helps us continue to celebrate their memory and make a difference in the lives of others.
 					</p>
@@ -105,7 +105,7 @@
 						<div class="col-12 content-head">
 							<div class="mbr-section-head">
 								<h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-									<strong>Heeft u vragen?</strong>
+									<strong>Got Questions?</strong>
 								</h4>
 								
 							</div>
@@ -116,7 +116,7 @@
 							<div class="card-header" role="tab" id="headingOne">
 								<a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse1_17" aria-expanded="false" aria-controls="collapse1">
 									<h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">
-										Het doel van deze site
+										What is the purpose of the site ?
 									</h6>
 									<span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
 								</a>
@@ -124,7 +124,7 @@
 							<div id="collapse1_17" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_17">
 								<div class="panel-body">
 									<p class="mbr-fonts-style panel-text display-7">
-										Deze site dient als platform om steun te betuigen aan Alice en haar familie tijdens deze moeilijke periode. We streven ernaar om alle liefdevolle berichten voor haar te verzamelen om haar en de artsen zoveel mogelijk rust en stilte te bieden. Op deze manier kan iedereen die haar steun wil tonen, op een serene manier contact met haar opnemen. 
+										This site serves as a platform to express support to Alice and the family during this difficult time. We aim to gather all the loving messages for her to provide her and the doctors with as much peace and quiet as possible. <br> This way, anyone wishing to show her support can reach out to her in a serene manner.
 									</p>
 								</div>
 							</div>
@@ -133,7 +133,7 @@
 							<div class="card-header" role="tab" id="headingOne">
 								<a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse2_17" aria-expanded="false" aria-controls="collapse2">
 									<h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">
-										Waar is deze site voor?
+										Who is this site for ?
 									</h6>
 									<span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
 								</a>
@@ -141,7 +141,7 @@
 							<div id="collapse2_17" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_17">
 								<div class="panel-body">
 									<p class="mbr-fonts-style panel-text display-7">
-										Iedereen die een persoonlijke band heeft met haar en op een of andere manier contact met haar wil opnemen. We zullen dagelijks berichten met Alice delen. Daarnaast worden hier eventuele noodzakelijke updates geplaatst. 
+										Anyone who shares a personal connection with her and wishes to reach out to her in some way. <br> We will share messages with Alice on a daily basis. Additionally, any necessary updates will be posted here. 
 									</p>
 								</div>
 							</div>
@@ -150,7 +150,7 @@
 							<div class="card-header" role="tab" id="headingOne">
 								<a role="button" class="panel-title collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-core="" href="#collapse3_17" aria-expanded="false" aria-controls="collapse3">
 									<h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">
-										Maar wat als ik haar gewoon wil zien, spreken of aanraken? 
+										But what if I just want to see, speak to, or touch her?
 									</h6>
 									<span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
 								</a>
@@ -158,7 +158,7 @@
 							<div id="collapse3_17" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_17">
 								<div class="panel-body">
 									<p class="mbr-fonts-style panel-text display-7">
-										Neem alsjeblieft contact op met een van haar zonen, Edgar, Caryl, Ramon, Howard of Clifton. We helpen je graag verder.
+										Please contact one of her sons, Edgar, Caryl, Ramon, Howard, or Cliffton. We will assist you further. 
 									</p>
 								</div>
 							</div>
@@ -181,10 +181,10 @@
 				<div class="card-wrapper">
 					<div class="card-box align-center">
 						<h1 class="card-title mbr-fonts-style mb-4 display-1">
-							<strong>Deel je bericht</strong></h1>
-						<p class="mbr-text mbr-fonts-style mb-4 display-7">Deel je mooiste verhaal en eerbetoon aan Alice</p>
+							<strong>Share a Note</strong></h1>
+						<p class="mbr-text mbr-fonts-style mb-4 display-7">Please post your favorite story and tribute</p>
 						<div class="mbr-section-btn mt-4">
-                            <a class="btn btn-primary display-7" href="post-memory.php">Deel je bericht</a>
+                            <a class="btn btn-primary display-7" href="post-memory-en.php">Share Note</a>
                         </div>
 					</div>
 				</div>

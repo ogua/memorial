@@ -32,13 +32,13 @@ if ($query) {
         }
 	}
 	
-	echo "Your memory posted successfully";
+	echo "Je herinnering is succesvol geplaatst";
 	
 }else{
 	
 	//header("Location: https://example.com/new-page.php");
 	
-	echo "Something went wrong please try again";
+	echo "Er is iets mis gegaan, probeer het alstublieft nogmaals";
 }
 
 

@@ -38,13 +38,13 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item">
-						<a class="nav-link link text-black display-4" href="index.php">Home</a>
+						<a class="nav-link link text-black display-4" href="index-en.php">HOME</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link link text-yellow display-4" href="/post-memory.php" aria-expanded="false">Laat een herinnering achter</a>
+						<a class="nav-link link text-yellow display-4" href="post-memory-en.php" aria-expanded="false">Leave a note</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link link text-black display-4" href="index-en.php" aria-expanded="false">Vertaal naar Engels</a>
+						<a class="nav-link link text-black display-4" href="index.php" aria-expanded="false">Translate to Dutch</a>
 					</li>
 				</ul>
 				
@@ -64,29 +64,30 @@
 				<div class="card-wrapper">
 					<div class="card-box align-center">
 						<h1 class="card-title mbr-fonts-style mb-4 display-1">
-							<strong>Deel je bericht</strong></h1>
-						<p class="mbr-text mbr-fonts-style mb-4 display-7">Deel je mooiste verhaal en eerbetoon aan Alice</p>
+							<strong>Share Your Memory</strong></h1>
+						<p class="mbr-text mbr-fonts-style mb-4 display-7">Please post your favorite story and tribute</p>
+
 						<form action="action.php" method="post" id="sharememory" enctype="multipart/form-data">
 
 							<div class="form-group">
-								<input type="text" class="form-control" name="fullname" placeholder="Voer volledige naam in" required>
+								<input type="text" class="form-control" name="fullname" placeholder="Enter Full name" required>
 							</div>
 
 							<div class="form-group">
-								<input type="email" class="form-control" name="email" placeholder="EVul email adres in">
+								<input type="email" class="form-control" name="email" placeholder="Enter Email Address">
 							</div>
 
 							<div class="form-group">
-								<textarea name="message" id="message" class="form-control" placeholder="Voer notitie in"></textarea required>
+								<textarea name="message" id="message" class="form-control" placeholder="Enter message"></textarea required>
 							</div>
 
 							<div class="form-group">
-								<label for="">Video/afbeelding bijvoegen</label>
+								<label for="">Attach Video / Image</label>
 								<input type="file" name="ivfile" id="ivfile" required>
 							</div>
 
 
-								<input type="submit" value="Deel notitie" class="btn btn-success">
+								<input type="submit" value="Share Memory" class="btn btn-success">
 
 
 						</form>
