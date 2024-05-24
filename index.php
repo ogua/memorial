@@ -8,9 +8,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Mobirise v5.9.13, a.mobirise.com">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-  <!-- <link rel="shortcut icon" href="assets/images/gallery03-h_lwggdlej.jpeg" type="image/x-icon"> -->
+  <link rel="shortcut icon" href="assets/images/gallery03-h_lwggdlej.jpg" type="image/x-icon">
   <meta name="description" content="In Loving Memory OF Alice Groenefelt - Imanuel">
-  <title>Memorial Tribute</title>
+  <title>Memorial Tribute: Alice Groenefelt - Imanuel</title>
   <link rel="stylesheet" href="assets/css/mobirise2.css">
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/bootstrap-grid.min.css">
