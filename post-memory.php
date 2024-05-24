@@ -73,11 +73,11 @@
 							</div>
 
 							<div class="form-group">
-								<input type="email" class="form-control" name="email" placeholder="EVul email adres in">
+								<input type="email" class="form-control" name="email" placeholder="Vul email adres in">
 							</div>
 
 							<div class="form-group">
-								<textarea name="message" id="message" class="form-control" placeholder="Voer notitie in"></textarea required>
+								<textarea name="message" id="message" class="form-control" placeholder="Voer bericht in"></textarea required>
 							</div>
 
 							<div class="form-group">

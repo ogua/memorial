@@ -87,7 +87,7 @@
 					<p class="mbr-text align-left mbr-fonts-style mb-4 display-7">
 					Sluit u bij ons aan om de levens van onze dierbaren te eren door onze zaak te steunen. Jouw donatie helpt ons hun nagedachtenis te blijven vieren en een verschil te maken in de levens van anderen.
 					</p>
-					<div class="mbr-section-btn align-left mt-3"><a class="btn btn-success-outline display-4" href="#">DONATE</a></div>
+					<div class="mbr-section-btn align-left mt-3"><a class="btn btn-success-outline display-4" href="#">Bijdrage</a></div>
 				</div>
 			</div>
 		</div>
@@ -182,7 +182,7 @@
 					<div class="card-box align-center">
 						<h1 class="card-title mbr-fonts-style mb-4 display-1">
 							<strong>Deel je bericht</strong></h1>
-						<p class="mbr-text mbr-fonts-style mb-4 display-7">Deel je mooiste verhaal en eerbetoon aan Alice</p>
+						<p class="mbr-text mbr-fonts-style mb-4 display-7">Deel je mooiste verhaal en eerbetoon aan Alice Het is ook mogelijk om een foto of video te uploaden</p>
 						<div class="mbr-section-btn mt-4">
                             <a class="btn btn-primary display-7" href="post-memory.php">Deel je bericht</a>
                         </div>

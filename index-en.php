@@ -182,7 +182,7 @@
 					<div class="card-box align-center">
 						<h1 class="card-title mbr-fonts-style mb-4 display-1">
 							<strong>Share a Note</strong></h1>
-						<p class="mbr-text mbr-fonts-style mb-4 display-7">Please post your favorite story and tribute</p>
+						<p class="mbr-text mbr-fonts-style mb-4 display-7">Share your best story and tribute to Alice. It is also possible to upload a photo or video</p>
 						<div class="mbr-section-btn mt-4">
                             <a class="btn btn-primary display-7" href="post-memory-en.php">Share Note</a>
                         </div>
