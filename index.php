@@ -74,7 +74,7 @@
   </div>
 </section>
 
-<section data-bs-version="5.1" class="start article2 cid-udpMOhO1QR" id="article02-2">	
+<!-- <section data-bs-version="5.1" class="start article2 cid-udpMOhO1QR" id="article02-2">	
 
 	<div class="container">
 		<div class="row justify-content-center">
@@ -92,7 +92,7 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 
 <section data-bs-version="5.1" class="list1 cid-udpIS8Ar5H" id="list01-0">	
     
