@@ -65,7 +65,7 @@
     <div class="row">
       <div class="content-wrap col-12 col-md-12">
         <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-4 display-1">
-          <strong>In Loving Memory OF Alice Groenefelt - Imanuel</strong></h1>
+          <strong>Streams of love for Alice Groenefelt - Imanuel</strong></h1>
         
         
         <div class="mbr-section-btn"><a class="btn btn-white-outline display-7" href="post-memory-en.php">Post Story</a></div>
@@ -118,7 +118,7 @@
 									<h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">
 										What is the purpose of the site ?
 									</h6>
-									<span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+								
 								</a>
 							</div>
 							<div id="collapse1_17" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_17">
@@ -135,7 +135,7 @@
 									<h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">
 										Who is this site for ?
 									</h6>
-									<span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+								
 								</a>
 							</div>
 							<div id="collapse2_17" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_17">
@@ -152,7 +152,7 @@
 									<h6 class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5">
 										But what if I just want to see, speak to, or touch her?
 									</h6>
-									<span class="sign mbr-iconfont mobi-mbri-arrow-down"></span>
+								
 								</a>
 							</div>
 							<div id="collapse3_17" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" data-bs-parent="#bootstrap-accordion_17">
@@ -194,76 +194,148 @@
 </section>
 
 <section data-bs-version="5.1" class="people05 cid-udpvBnUuVO" id="testimonials-5-udpvBnUuVO">
-	
+
 <div class="container">
-    <div class="row">
+<div class="row">
 
-        <?php
-        $sql = "SELECT * FROM `lovingmemories`";
-        $query = mysqli_query($conn, $sql);
-        $countrows = mysqli_num_rows($query);
-        ?>
+<?php
+$sql = "SELECT * FROM `lovingmemories` order by id desc";
+$query = mysqli_query($conn, $sql);
+$countrows = mysqli_num_rows($query);
+?>
 
-        <?php
-        if ($countrows > 0) {
-            while ($row = mysqli_fetch_assoc($query)) {
-                ?>
+<?php
+if ($countrows > 0) {
+while ($row = mysqli_fetch_assoc($query)) {
+?>
+<div class="col-md-4" style="box-sizing: border-box; background-clip: padding-box;border-width: 0px 0px 0px 8px; border-style: solid; border-color: transparent; border-image: initial;">
+<div class="full-width q-mt-sm rounded-borders q-card q-card--bordered q-card--flat no-shadow bubble">
+	<div class="full-width">
+		<div class="q-list cursor-pointer">
+			<div class="q-item q-item-type row no-wrap q-px-sm">
+				<div class="q-item__section column q-item__section--top q-item__section--avatar q-item__section--side justify-start">
+					<div class="relative-position">
+						<div role="img" class="q-img overflow-hidden" style="width: 45px; height: 45px; border-radius: 50%;">
+							<div class="q-img__content absolute-full">
+								<span style="background-color: grey; color: white; width: 45px; height: 45px; display: flex; border-radius: 50%; font-size: 15px; align-items: center; justify-content: center; text-align: center; user-select: none;"><span style="max-width: 90%;">
+									<?php echo substr($row['fullname'], 0,1); ?> </span></span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="q-item__section column q-item__section--main justify-center">
+					<div class="q-item__label ellipsis"><span class="text-bold" style="font-size: 0.7rem;"><?php echo $row['fullname']; ?></span><br><time datetime="2024-04-24T23:44:36.000Z" class="q-pt-xs text-grey-6" style="font-size: 0.6rem;"><?php echo diffForHumans($row['created_at']); ?></time>
+					</div>
+				</div>
+				<div class="q-item__section column q-item__section--top q-item__section--side justify-start">
+					<div class="row flex flex-center"><!----><!---->
 
-                <div class="col-md-4 mb-4">
-                    <div class="card" style="border: 1px solid gray;">
-                        <div class="card-body">
-                            <p class="card-text"><?php echo $row['note']; ?></p>
-                            <p class="card-text"><small class="text-muted"><?php echo $row['fullname']; ?> <?php echo diffForHumans($row['created_at']); ?></small></p>
-                        </div>
-                        <?php
-                        if ($row['attachment']) {
-                            if (checkFileType($row['attachment']) == "image") {
-                                ?>
-                                <img src="<?php echo $row['attachment']; ?>" class="card-img-bottom" alt="">
-                                <?php
-                            } elseif (checkFileType($row['attachment']) == "video") {
-                                ?>
-                                <video controls class="card-video-bottom">
-                                    <source src="<?php echo $row['attachment']; ?>" type="video/<?php echo pathinfo($row['attachment'], PATHINFO_EXTENSION); ?>">
-                                    Your browser does not support the video tag.
-                                </video>
-                                <?php
-                            }
-                        }
-                        ?>
-                    </div>
-                </div>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div class="q-item__label">
+					<div class="q-mx-sm"><div><!----><div tabindex="0" class="mince-scroll-bar"><div contenteditable="false" translate="no" class="ProseMirror" tabindex="0"><p><?php echo $row['note']; ?></p></div></div></div>
+				</div>
+				<div class="justify-between">
+					<div class="col"><!---->
+						<?php
+						if ($row['attachment']) {
+							if (checkFileType($row['attachment']) == "image") {
+								?>
+								<div role="img" class="cursor-pointer full-width q-img overflow-hidden bg-grey-1" style="max-height: 300px;">
+									<div style="padding-bottom: 133.333%;">
+									</div>
+									<div class="q-img__image absolute-full" style="background-size: contain; background-position: 50% 50%; background-image: url('<?php echo $url.$row['attachment']; ?>');">
+									</div>
+									<div class="q-img__content absolute-full">
 
-                <?php
-            }
-        }
-        ?>
+									</div>
+								</div>
 
-    </div>
+								<?php
+							} elseif (checkFileType($row['attachment']) == "video") {
+								?>
+								<div>
+									<div class="aspect-ratio-wrapper video-player overflow-hidden full-width" data-test="comp-videoplayer" style="max-height: 300px !important;"><div class="aspect-ratio-wrapper__inner" style="padding-top: 56.6%;">
+										<div class="aspect-ratio-wrapper__media" style="max-height: 300px !important;">
+											<div style="background-color: rgb(238, 238, 238) !important;" id="vjs_video_3" class="video-player__video video-js vjs-big-play-centered full-width full-height vjs-paused vjs-controls-enabled vjs-workinghover vjs-v7 vjs-user-active vjs_video_3-dimensions" crossorigin="anonymous" playsinline="true" tabindex="-1" role="region" lang="en-us" aria-label="Video Player">
+
+												<video
+												playsinline="playsinline"
+												id="<?php echo $row['id']; ?>"
+												crossorigin="anonymous" 
+												class="vjs-tech" 
+												id="vjs_video_3_html5_api"
+												controls
+												preload="metadata"
+												poster="assets/images/gallery03-h_lwggdlej.jpg"
+												style="background-color: rgb(238, 238, 238) !important;" 
+												tabindex="-1" 
+												role="application"
+												data-setup="{}"
+												>
+												<source src="<?php echo  $url.$row['attachment']; ?>" type="video/<?php echo pathinfo($row['attachment'], PATHINFO_EXTENSION); ?>" />
+													<p class="vjs-no-js">
+														To view this video please enable JavaScript, and consider upgrading to a
+														web browser that
+														<a href="https://videojs.com/html5-video-support/" target="_blank"
+														>supports HTML5 video</a
+														>
+													</p>
+												</video>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<?php
+						}
+					}
+					?>
+				</div><!---->
+			</div>
+		</div>
+	</div>
+</div><!----><!----><!----><!---->
+</div>
+</div>
 </div>
 
-<style>
-    .card {
-        border: 1px solid gray; /* Optional: already set inline in the PHP, can be moved here */
-    }
-    .card-img-bottom, .card-video-bottom {
-        width: 100%; /* Ensure media fits within the card width */
-        height: auto; /* Maintain aspect ratio */
-        display: block;
-    }
-    .card-video-bottom {
-        max-height: 200px; /* Optional: limits the height of the video within the card */
-        object-fit: cover;  /* Ensures the media fits within the card */
-    }
-    .card-video-bottom:fullscreen, .card-video-bottom:-webkit-full-screen, .card-video-bottom:-moz-full-screen, .card-video-bottom:-ms-fullscreen {
-        width: 100%;
-        height: 100%;
-        object-fit: contain; /* Ensure the video is fully visible */
-    }
-</style>
 
+<!-- <div class="col-md-4 mb-4">
+<div class="card" style="border: 1px solid gray;">
+	<div class="card-body">
+		<p class="card-text"><?php echo $row['note']; ?></p>
+		<p class="card-text"><small class="text-muted"><?php echo $row['fullname']; ?> <?php echo diffForHumans($row['created_at']); ?></small></p>
+	</div>
+	<?php
+	if ($row['attachment']) {
+		if (checkFileType($row['attachment']) == "image") {
+			?>
+			<img src="<?php echo $row['attachment']; ?>" class="card-img-bottom" alt="">
+			<?php
+		} elseif (checkFileType($row['attachment']) == "video") {
+			?>
+			<video controls class="card-video-bottom">
+				<source src="<?php echo $row['attachment']; ?>" type="video/<?php echo pathinfo($row['attachment'], PATHINFO_EXTENSION); ?>">
+					Your browser does not support the video tag.
+				</video>
+				<?php
+			}
+		}
+		?>
+	</div>
+</div> -->
 
+<?php
+}
+}
+?>
 
+</div>
+</div>
 
 </section>
 
